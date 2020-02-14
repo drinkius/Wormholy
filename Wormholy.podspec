@@ -17,4 +17,5 @@ Pod::Spec.new do |s|
     'Wormholy' => ['Sources/**/*.storyboard', 'Sources/**/*.xib', 'Sources/**/*.{css,js}']
   }
   s.frameworks  = "Foundation"
+  s.swift_version = '5.0'
 end
